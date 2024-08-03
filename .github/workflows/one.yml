@@ -2,7 +2,7 @@ name: "Simple commands"
 on: push
 jobs:
   run-commands:
-    runs-on: default
+    runs-on: ubuntu-latest
     steps:
       - name: "Just Echo"
         run: |
