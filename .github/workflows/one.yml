@@ -1,0 +1,10 @@
+name: "Simple commands"
+on: push
+jobs:
+  run-commands:
+    runs-on: default
+    steps:
+      - name: "Just Echo"
+        run: |
+          echo "start commands"
+          echo "end commands"
