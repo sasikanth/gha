@@ -1,0 +1,9 @@
+name: "kubectl commands"
+on: workflow_dispatch
+jobs:
+  run-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "kubectl"
+        run: |
+          kubectl version
